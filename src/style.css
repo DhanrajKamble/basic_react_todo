@@ -1,0 +1,33 @@
+/* import './App.css'; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(229, 227, 227);
+   padding: 10rem;
+}
+.item-container{
+    display: flex;
+    width: 300px;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.todo-button{
+    width: 300px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.footer{
+    position: fixed;
+    margin-top: 300px;
+}
